@@ -14,6 +14,18 @@
 		C433E3EF2852E3A500441701 /* MultiDirectionalPaginationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E3EE2852E3A500441701 /* MultiDirectionalPaginationDemoTests.swift */; };
 		C433E3F92852E3A500441701 /* MultiDirectionalPaginationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E3F82852E3A500441701 /* MultiDirectionalPaginationDemoUITests.swift */; };
 		C433E3FB2852E3A500441701 /* MultiDirectionalPaginationDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E3FA2852E3A500441701 /* MultiDirectionalPaginationDemoUITestsLaunchTests.swift */; };
+		C433E40C2852E40B00441701 /* MultiDirectionalPagination+Computed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E4082852E40B00441701 /* MultiDirectionalPagination+Computed.swift */; };
+		C433E40D2852E40B00441701 /* MultiDirectionalPagination+Computed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E4082852E40B00441701 /* MultiDirectionalPagination+Computed.swift */; };
+		C433E40E2852E40B00441701 /* MultiDirectionalPagination+Computed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E4082852E40B00441701 /* MultiDirectionalPagination+Computed.swift */; };
+		C433E40F2852E40B00441701 /* MultiDirectionalPagination+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E4092852E40B00441701 /* MultiDirectionalPagination+Modifiers.swift */; };
+		C433E4102852E40B00441701 /* MultiDirectionalPagination+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E4092852E40B00441701 /* MultiDirectionalPagination+Modifiers.swift */; };
+		C433E4112852E40B00441701 /* MultiDirectionalPagination+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E4092852E40B00441701 /* MultiDirectionalPagination+Modifiers.swift */; };
+		C433E4122852E40B00441701 /* MultiDirectionalPagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E40A2852E40B00441701 /* MultiDirectionalPagination.swift */; };
+		C433E4132852E40B00441701 /* MultiDirectionalPagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E40A2852E40B00441701 /* MultiDirectionalPagination.swift */; };
+		C433E4142852E40B00441701 /* MultiDirectionalPagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E40A2852E40B00441701 /* MultiDirectionalPagination.swift */; };
+		C433E4152852E40B00441701 /* MultiDirectionalPagination+Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E40B2852E40B00441701 /* MultiDirectionalPagination+Drag.swift */; };
+		C433E4162852E40B00441701 /* MultiDirectionalPagination+Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E40B2852E40B00441701 /* MultiDirectionalPagination+Drag.swift */; };
+		C433E4172852E40B00441701 /* MultiDirectionalPagination+Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433E40B2852E40B00441701 /* MultiDirectionalPagination+Drag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,10 @@
 		C433E3F42852E3A500441701 /* MultiDirectionalPaginationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiDirectionalPaginationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C433E3F82852E3A500441701 /* MultiDirectionalPaginationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDirectionalPaginationDemoUITests.swift; sourceTree = "<group>"; };
 		C433E3FA2852E3A500441701 /* MultiDirectionalPaginationDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDirectionalPaginationDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C433E4082852E40B00441701 /* MultiDirectionalPagination+Computed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MultiDirectionalPagination+Computed.swift"; sourceTree = "<group>"; };
+		C433E4092852E40B00441701 /* MultiDirectionalPagination+Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MultiDirectionalPagination+Modifiers.swift"; sourceTree = "<group>"; };
+		C433E40A2852E40B00441701 /* MultiDirectionalPagination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiDirectionalPagination.swift; sourceTree = "<group>"; };
+		C433E40B2852E40B00441701 /* MultiDirectionalPagination+Drag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MultiDirectionalPagination+Drag.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +110,7 @@
 		C433E3DC2852E3A000441701 /* MultiDirectionalPaginationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C433E4072852E3C300441701 /* MultiDirectionalPagination */,
 				C433E3DD2852E3A000441701 /* MultiDirectionalPaginationDemoApp.swift */,
 				C433E3DF2852E3A000441701 /* ContentView.swift */,
 				C433E3E12852E3A500441701 /* Assets.xcassets */,
@@ -125,6 +142,17 @@
 				C433E3FA2852E3A500441701 /* MultiDirectionalPaginationDemoUITestsLaunchTests.swift */,
 			);
 			path = MultiDirectionalPaginationDemoUITests;
+			sourceTree = "<group>";
+		};
+		C433E4072852E3C300441701 /* MultiDirectionalPagination */ = {
+			isa = PBXGroup;
+			children = (
+				C433E40A2852E40B00441701 /* MultiDirectionalPagination.swift */,
+				C433E4082852E40B00441701 /* MultiDirectionalPagination+Computed.swift */,
+				C433E40B2852E40B00441701 /* MultiDirectionalPagination+Drag.swift */,
+				C433E4092852E40B00441701 /* MultiDirectionalPagination+Modifiers.swift */,
+			);
+			path = MultiDirectionalPagination;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C433E3E02852E3A000441701 /* ContentView.swift in Sources */,
+				C433E40F2852E40B00441701 /* MultiDirectionalPagination+Modifiers.swift in Sources */,
+				C433E4152852E40B00441701 /* MultiDirectionalPagination+Drag.swift in Sources */,
 				C433E3DE2852E3A000441701 /* MultiDirectionalPaginationDemoApp.swift in Sources */,
+				C433E40C2852E40B00441701 /* MultiDirectionalPagination+Computed.swift in Sources */,
+				C433E4122852E40B00441701 /* MultiDirectionalPagination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C433E4132852E40B00441701 /* MultiDirectionalPagination.swift in Sources */,
 				C433E3EF2852E3A500441701 /* MultiDirectionalPaginationDemoTests.swift in Sources */,
+				C433E40D2852E40B00441701 /* MultiDirectionalPagination+Computed.swift in Sources */,
+				C433E4162852E40B00441701 /* MultiDirectionalPagination+Drag.swift in Sources */,
+				C433E4102852E40B00441701 /* MultiDirectionalPagination+Modifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +311,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C433E3FB2852E3A500441701 /* MultiDirectionalPaginationDemoUITestsLaunchTests.swift in Sources */,
+				C433E4112852E40B00441701 /* MultiDirectionalPagination+Modifiers.swift in Sources */,
+				C433E4172852E40B00441701 /* MultiDirectionalPagination+Drag.swift in Sources */,
 				C433E3F92852E3A500441701 /* MultiDirectionalPaginationDemoUITests.swift in Sources */,
+				C433E40E2852E40B00441701 /* MultiDirectionalPagination+Computed.swift in Sources */,
+				C433E4142852E40B00441701 /* MultiDirectionalPagination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
